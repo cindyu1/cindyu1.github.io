@@ -1,0 +1,199 @@
+body {
+    /* Makes background page color light blue */
+    background-color: lightblue;
+}
+
+/* GENERAL TAGS */
+a{
+    text-decoration: none; /* gets rid of the underline under links */
+    color: #c984ff;
+}
+a:hover{
+  color: purple;
+}
+
+p, li{ /* for both p and li tags */
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+h1{
+    color: black;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #eadbff;
+}
+h2{
+    color: black;
+    padding: 5px 5px;
+    font-size: 25px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: lavender;
+}
+
+strong{
+  color:#11001F /* dark purple */
+}
+
+i{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+
+/* CLASSES */
+.left{
+  text-align:left;
+}
+.center {
+  /* Aligns text to the center of the page */
+  text-align: center;
+}
+.right {
+  /* Aligns text to the right of the page */
+  text-align: right;
+}
+
+.rightFloat {
+  /* Makes item float to the right */
+  float: right;
+}
+
+.image-txt-container {
+  display:flex;
+  align-items:center;
+  flex-direction: row;
+}
+.titletext{
+  font-size: 50px;
+}
+.subtext{
+  font-size: 30px;
+}
+
+
+.medialink{
+  /* A class meant for links for contact information. The link should be font
+  size 16 */
+   font-size: 16px;
+}
+.medialink:hover {
+  color: purple;
+}
+.biggertext{
+  /* A class meant for text to be size 20, a bigger size than what is defined normally */
+   font-size:20px;
+}
+.boldedtext{
+  /* Text should be bolded when this class is active */
+   font-weight:bold;
+}
+
+
+.whitetext{
+  /* Makes text white */
+  color:white;
+  float:left;
+  padding: 5px 5px;
+  text-align: center;
+  padding-left: 10px;
+}
+.headerlink{
+  /* links on the header should be to the right of the header */
+  float: right;
+  padding: 5px 5px;
+  padding-right: 20px;
+  text-align: center;
+}
+.headerlink:hover, .headerlink:active{
+  /* When the navigation bar links are hovered over and being clicked on,
+  the text should turn white. They will revert to normal color when the mouse
+  is not on the text anymore. */
+  color: white;
+}
+
+.fa{
+  text-decoration: none;
+  color: #c984ff;
+}
+.fa:hover{
+  color: purple;
+}
+
+
+.center_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* IDS */
+#top_nav{
+  /* Specific ID for the top header */
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#main{
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: auto;
+}
+#bottom{
+  /* bottom contact area */
+    background-color: #eadbff;
+    padding: 9px 9px;
+    font-family: 'Fira Sans', sans-serif;
+}
+#splash{
+  background-color: lavender;
+  margin-top: 55px;
+  background-image:
+}
+#skills{
+  font-size: 5em;
+}
+
+
+/* SPECIFIC TAGS */
+img.splash{
+  padding-right: 10px;
+  padding-left: 60px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+img.rightFloat{
+    height: 300px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div.rightFloat {
+  /* img border area */
+    background-color: #eadbff;
+    max-width: 300px;
+    height: 340px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+div#main, div#bottom, div#splash{
+  margin-left: 50px;
+  margin-right: 50px;
+}
