@@ -129,6 +129,10 @@ i{
 }
 
 /* IDS */
+#container{
+  min-height: 100%;
+  position: relative;
+}
 #top_nav{
   /* Specific ID for the top header / navigation bar */
     overflow: hidden;
@@ -146,12 +150,17 @@ i{
   padding-top: 10px;
   padding-bottom: 10px;
   margin-top: auto;
+  height: 100%;
 }
 #bottom{
   /* bottom contact area */
+    overflow: hidden;
     background-color: #eadbff;
     padding: 9px 9px;
     font-family: 'Fira Sans', sans-serif;
+    position: relative;
+    bottom: 0;
+    left: 0;
 }
 #splash{
   /* Splash banner */
@@ -167,6 +176,7 @@ i{
 
 /* SPECIFIC TAGS */
 img.splash{
+  max-width: 100%;
   padding-right: 10px;
   padding-left: 60px;
   padding-top: 10px;
@@ -174,7 +184,7 @@ img.splash{
 }
 
 img.rightFloat{
-    height: 300px;
+    height: 100%;
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 20px;
@@ -190,7 +200,7 @@ div.rightFloat {
     margin-left: 10px;
 }
 
-div#main, div#bottom, div#splash{
+div#main, div#splash{
   margin-left: 50px;
   margin-right: 50px;
 }
