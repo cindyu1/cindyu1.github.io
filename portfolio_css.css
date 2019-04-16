@@ -1,6 +1,7 @@
 body {
-    /* Makes background page color light blue */
+    /* Makes background page color light blue, puts a patterned bg as body */
     background-color: lightblue;
+    background-image: url('bg3.jpg');
 }
 
 /* GENERAL TAGS */
@@ -17,7 +18,7 @@ p, li{ /* for both p and li tags */
     margin-right: 30px;
     padding-left: 15px;
     padding-right: 15px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Fira Sans', sans-serif;
 }
 
@@ -65,6 +66,7 @@ i{
   float: right;
 }
 
+/* SPLASH BANNER CLASSES */
 .image-txt-container {
   display:flex;
   align-items:center;
@@ -77,15 +79,6 @@ i{
   font-size: 30px;
 }
 
-
-.medialink{
-  /* A class meant for links for contact information. The link should be font
-  size 16 */
-   font-size: 16px;
-}
-.medialink:hover {
-  color: purple;
-}
 .biggertext{
   /* A class meant for text to be size 20, a bigger size than what is defined normally */
    font-size:20px;
@@ -94,8 +87,6 @@ i{
   /* Text should be bolded when this class is active */
    font-weight:bold;
 }
-
-
 .whitetext{
   /* Makes text white */
   color:white;
@@ -104,6 +95,8 @@ i{
   text-align: center;
   padding-left: 10px;
 }
+
+/* NAV BAR LINKS */
 .headerlink{
   /* links on the header should be to the right of the header */
   float: right;
@@ -118,6 +111,7 @@ i{
   color: white;
 }
 
+/* CONTACT ICONS */
 .fa{
   text-decoration: none;
   color: #c984ff;
@@ -126,7 +120,7 @@ i{
   color: purple;
 }
 
-
+/* IMG POSITIONING */
 .center_img{
   display: block;
   margin-left: auto;
@@ -136,7 +130,7 @@ i{
 
 /* IDS */
 #top_nav{
-  /* Specific ID for the top header */
+  /* Specific ID for the top header / navigation bar */
     overflow: hidden;
     background-color: black;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -147,6 +141,7 @@ i{
     width: 100%;
 }
 #main{
+  /* Specific ID for the main body */
   background-color: white;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -159,11 +154,13 @@ i{
     font-family: 'Fira Sans', sans-serif;
 }
 #splash{
+  /* Splash banner */
   background-color: lavender;
   margin-top: 55px;
   background-image:
 }
 #skills{
+  /* skills icon size */
   font-size: 5em;
 }
 
@@ -196,4 +193,9 @@ div.rightFloat {
 div#main, div#bottom, div#splash{
   margin-left: 50px;
   margin-right: 50px;
+}
+
+ul#skill_list{
+  margin-right:3%;
+  list-style: none;
 }
