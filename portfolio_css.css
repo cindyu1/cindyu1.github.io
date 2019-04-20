@@ -2,7 +2,13 @@ body {
     /* Makes background page color light blue, puts a patterned bg as body */
     background-color: lightblue;
     background-image: url('bg3.jpg');
+    height: 100%;
 }
+html{
+  min-height: 100%;
+  position: relative;
+}
+
 
 /* GENERAL TAGS */
 a{
@@ -128,13 +134,15 @@ i{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 60%;
+  width: 50%;
+  padding: 5px 5px;
 }
+
 
 /* IDS */
 #container{
   min-height: 100%;
-  position: relative;
+  position: absolute;
 }
 #top_nav{
   /* Specific ID for the top header / navigation bar */
@@ -147,11 +155,17 @@ i{
     left: 0;
     width: 100%;
 }
+#splash{
+  /* Splash banner */
+  background-color: lavender;
+  margin-top: 49px;
+  background-image:
+}
 #main{
   /* Specific ID for the main body */
   background-color: white;
-  padding-top: 10px;
-  padding-bottom: 50px;
+  padding-top: 5px;
+  padding-bottom: 45px;
   margin-top: auto;
   max-height: 100%;
 }
@@ -165,12 +179,6 @@ i{
     bottom: 0;
     left: 0;
     width: 100%;
-}
-#splash{
-  /* Splash banner */
-  background-color: lavender;
-  margin-top: 55px;
-  background-image:
 }
 #skills{
   /* skills icon size */
@@ -202,12 +210,17 @@ div.rightFloat {
     margin-left: 10px;
 }
 
-div#main, div#splash{
+div#main, div#splash, div#project_div{
   margin-left: 50px;
   margin-right: 50px;
 }
 
-ul#skill_list{
-  margin-right:3%;
-  list-style: none;
+div#project_div{
+  background-color: white;
+  margin-top: auto;
+  padding-top: 10px;
+}
+
+ul{
+  display: inline-block;
 }
