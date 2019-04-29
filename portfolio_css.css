@@ -26,6 +26,7 @@ p, li{ /* for both p and li tags */
     padding-left: 15px;
     padding-right: 15px;
     font-size: 20px;
+    padding-top: 5px;
     font-family: 'Fira Sans', sans-serif;
 }
 
@@ -53,7 +54,10 @@ i{
   padding-left: 10px;
   padding-right: 10px;
 }
-
+img{
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
 /* CLASSES */
 .left{
@@ -94,6 +98,10 @@ i{
   /* Text should be bolded when this class is active */
    font-weight:bold;
 }
+.underline{
+  text-decoration: underline;
+}
+
 .whitetext{
   /* Makes text white */
   color: white;
