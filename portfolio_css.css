@@ -198,6 +198,7 @@ img{
 
 /* SPECIFIC TAGS */
 img.splash{
+  max-height: 100%;
   padding-left: 50px;
 }
 
