@@ -25,7 +25,7 @@ p, li{ /* for both p and li tags */
     margin-right: 30px;
     padding-left: 15px;
     padding-right: 15px;
-    font-size: 20px;
+    font-size: 18px;
     font-family: 'Fira Sans', sans-serif;
 }
 p{
@@ -80,16 +80,19 @@ img{
 }
 
 /* SPLASH BANNER CLASSES */
-.image-txt-container {
-  display:flex;
-  align-items:center;
-  flex-direction: row;
-}
 .titletext{
   font-size: 40px;
 }
 .subtext{
-  font-size: 25px;
+  font-size: 20px;
+}
+.splash_text{
+  text-align: center;
+}
+.image-txt-container{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
 .biggertext{
@@ -124,6 +127,7 @@ img{
   padding: 5px 5px;
   padding-right: 20px;
   text-align: center;
+  color: #c984ff;
 }
 .headerlink:hover, .headerlink:active{
   /* When the navigation bar links are hovered over and being clicked on,
@@ -169,8 +173,8 @@ img{
 }
 #splash{
   /* Splash banner */
-  background-color: lavender;
   margin-top: auto;
+  background-color: #eadbff;
 }
 #main{
   /* Specific ID for the main body */
@@ -194,9 +198,7 @@ img{
 
 /* SPECIFIC TAGS */
 img.splash{
-  max-width: 100%;
-  float: left;
-  padding-left: 20px;
+  padding-left: 50px;
 }
 
 img.rightFloat{
@@ -216,7 +218,7 @@ div.rightFloat {
     margin-left: 10px;
 }
 
-div#main, div#splash, div#project_div, div#bottom{
+div#main, div#project_div, div#bottom, div#splash{
   margin-left: 50px;
   margin-right: 50px;
 }
