@@ -26,13 +26,13 @@ ul{
   display: inline-block;
 }
 p, li{ /* for both p and li tags */
-    font-size: 18px;
+    font-size: 1.250em;
     font-family: 'Fira Sans', sans-serif;
 }
 p{
   padding-top: 5px;
-  margin-left: 15px;
-  margin-right: 15px;
+  margin-left: 25px;
+  margin-right: 25px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -41,13 +41,13 @@ h1{
     color: black;
     padding-top: 5px;
     padding-bottom: 5px;
-    font-size: 30px;
+    font-size: 2.25em;
     font-family: 'Open Sans Condensed', sans-serif;
     background-color: #eadbff;
 }
 h2{
     color: black;
-    font-size: 25px;
+    font-size: 2em;
     padding-top: 5px;
     padding-bottom: 5px;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -89,10 +89,10 @@ img{
 
 /* SPLASH BANNER CLASSES */
 .titletext{
-  font-size: 40px;
+  font-size: 4em;
 }
 .subtext{
-  font-size: 20px;
+  font-size: 1.33em;
 }
 
 .image-txt-container{
@@ -103,7 +103,7 @@ img{
 
 .biggertext{
   /* A class meant for text to be size 20, a bigger size than what is defined normally */
-   font-size:20px;
+   font-size:3em;
 }
 .boldedtext{
   /* Text should be bolded when this class is active */
@@ -156,7 +156,7 @@ img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 65%;
+  width: 60%;
   padding: 5px 5px;
 }
 
@@ -220,7 +220,7 @@ div.img_col{
   text-align: center;
 }
 
-div#main, div#project_div, div#bottom, div#splash{
+div#main, div#project_div, div#splash{
   margin-left: 45px;
   margin-right: 45px;
 }
