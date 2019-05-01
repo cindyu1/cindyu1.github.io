@@ -29,13 +29,13 @@ ul{
 p, li{ /* for both p and li tags */
     font-size: 1.120em;
     font-family: 'Fira Sans', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 p{
   padding-top: 5px;
   margin-left: 10px;
   margin-right: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
 }
 
 h1{
