@@ -27,7 +27,7 @@ ul{
   display: inline-block;
 }
 p, li{ /* for both p and li tags */
-    font-size: 1.15em;
+    font-size: 1.120em;
     font-family: 'Fira Sans', sans-serif;
 }
 p{
@@ -82,18 +82,16 @@ img{
   /* Aligns text to the right of the page */
   text-align: right;
 }
-
-.rightFloat {
-  /* Makes item float to the right */
-  float: right;
+.underline{
+  text-decoration: underline;
 }
 
 /* SPLASH BANNER CLASSES */
 .titletext{
-  font-size: 2.75em;
+  font-size: 2.55em;
 }
 .subtext{
-  font-size: 1.25em;
+  font-size: 1.20125em;
 }
 
 .image-txt-container{
