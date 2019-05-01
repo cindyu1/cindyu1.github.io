@@ -29,8 +29,8 @@ ul{
 p, li{ /* for both p and li tags */
     font-size: 1.120em;
     font-family: 'Fira Sans', sans-serif;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 p{
   padding-top: 5px;
@@ -71,6 +71,10 @@ img{
 
 
 /* CLASSES */
+.row{
+  padding-right: 15px;
+}
+
 .left{
   text-align:left;
 }
@@ -153,7 +157,7 @@ img{
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  padding: 5px 5px;
+  padding: 10px 5px;
 }
 
 /* SKILLS LISTS */
