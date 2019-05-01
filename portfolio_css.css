@@ -20,6 +20,7 @@ a:hover{
   text-decoration: none;
 }
 
+
 ul{
   list-style: circle;
   list-style-position: inside;
@@ -31,10 +32,10 @@ p, li{ /* for both p and li tags */
 }
 p{
   padding-top: 5px;
-  margin-left: 25px;
-  margin-right: 25px;
-  padding-left: 15px;
-  padding-right: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 h1{
@@ -89,7 +90,7 @@ img{
 
 /* SPLASH BANNER CLASSES */
 .titletext{
-  font-size: 3.5em;
+  font-size: 2.75em;
 }
 .subtext{
   font-size: 1.25em;
@@ -131,11 +132,11 @@ img{
   color: #c984ff;
   font-family: 'Open Sans Condensed', sans-serif;
 }
-.headerlink:hover, .headerlink:active{
+.headerlink a:hover, .headerlink a:active{
   /* When the navigation bar links are hovered over and being clicked on,
   the text should turn white. They will revert to normal color when the mouse
   is not on the text anymore. */
-  color: white;
+  color: lavender;
   text-decoration: none;
 }
 
